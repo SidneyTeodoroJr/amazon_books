@@ -14,15 +14,15 @@ st.set_page_config(
 )
 
 # Importing the CSS
-with open("app\modules\style.css") as css:
+with open("modules\style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
 
 st.write(f"<H1>📖 Top-100 Trending Books</H1>", unsafe_allow_html=True)
 st.write(f'<p id="text-home">This project presents data from 100 most popular books along with customer reviews.</p>', unsafe_allow_html=True)
 
 # Reading the files
-df_reviews = pd.read_csv("app\datasets\customer reviews.csv")
-df_top100_books = pd.read_csv("app\datasets\Top-100 Trending Books.csv")
+df_reviews = pd.read_csv("datasets\customer reviews.csv")
+df_top100_books = pd.read_csv("datasets\Top-100 Trending Books.csv")
 
 # Performing the calculations
 price_max = df_top100_books["book price"].max()
