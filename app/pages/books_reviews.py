@@ -1,9 +1,6 @@
 import streamlit as st
 
 from main import df_reviews, df_top100_books
-from modules.page import page
-
-page()
 
 with open("modules\style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)

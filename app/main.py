@@ -3,10 +3,15 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-# Importing page settings
-from modules.page import page
-
-page()
+# APP page settings
+st.set_page_config(
+    layout="wide",
+    menu_items={
+    'Get Help': 'https://github.com/SidneyTeodoroJr',
+    'Report a bug': "https://github.com/SidneyTeodoroJr/amazon_books",
+    'About': "Contributions are welcome!"
+    }
+)
 
 # Importing the CSS
 with open("modules\style.css") as css:
