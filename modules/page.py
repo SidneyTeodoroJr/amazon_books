@@ -10,6 +10,6 @@ def page():
         menu_items={
             'Get Help': 'https://github.com/SidneyTeodoroJr',
             'Report a bug': "https://github.com/SidneyTeodoroJr/amazon_books",
-            'About': "Contribuições são bem-vindas!"
+            'About': "Contributions are welcome!"
         }
     )
