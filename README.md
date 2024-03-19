@@ -53,6 +53,13 @@ Caso queira desativar o ambiente virtual: `deactivate`
 . [books_reviews.py](https://github.com/SidneyTeodoroJr/amazon_books/blob/main/app/pages/books_reviews.py): Script que permite aos usuários selecionar e visualizar informações e avaliações dos livros.</br></br>
 . [style.css](https://github.com/SidneyTeodoroJr/amazon_books/blob/main/app/modules/style.css): Arquivo CSS que estiliza a aparência da aplicação.</br></br>
 
+
+# Referência
+</br>
+
+[YouTube](https://youtu.be/VdLen3MV-GM?list=PLuvoZvhxWzZCYMiKtkcMr-aYJ3KV47V0G)
+</br>
+
  ## Contribuições
 </br>
 
