@@ -1,7 +1,7 @@
 import streamlit as st
 
-from home import df_reviews, df_top100_books
-from modules.page import *
+from main import df_reviews, df_top100_books
+from modules.page import page
 
 page()
 
