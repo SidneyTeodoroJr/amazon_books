@@ -2,7 +2,7 @@ import streamlit as st
 
 from main import df_reviews, df_top100_books
 
-with open("modules\style.css") as css:
+with open("app\modules\style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
 
 books = df_top100_books["book title"].unique() # Single list of titles
