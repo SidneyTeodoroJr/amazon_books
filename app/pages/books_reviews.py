@@ -1,9 +1,9 @@
 import streamlit as st
 
 from main import df_reviews, df_top100_books
+from modules.style import css # Importing the CSS
 
-with open("modules\style.css") as css:
-    st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
+css()
 
 books = df_top100_books["book title"].unique() # Single list of titles
 book = st.sidebar.selectbox("📖 Select a book:", books, index=5) # Menu
