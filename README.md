@@ -10,6 +10,8 @@
  Este projeto é uma aplicação web interativo para explorar e visualizar dados sobre os 100 livros mais populares, juntamente com suas avaliações de clientes. Ele fornece uma interface amigável para os usuários selecionarem e aprenderem mais sobre os livros em destaque.
 </br>
 
+<h4 align="left"><a href="https://amazon-books.onrender.com/">Live demo>></a></h4>
+
 ## Tecnologias usadas
 . [Python](https://docs.python.org/3/)</br></br>
 . [Streamlit](https://docs.streamlit.io/)</br></br>
