@@ -53,7 +53,7 @@ Caso queira desativar o ambiente virtual: `deactivate`
 
 . [main.py](https://github.com/SidneyTeodoroJr/amazon_books/blob/main/app/main.py): Script principal que contém a lógica para exibir os dados dos livros e os gráficos correspondentes.</br></br>
 . [books_reviews.py](https://github.com/SidneyTeodoroJr/amazon_books/blob/main/app/pages/books_reviews.py): Script que permite aos usuários selecionar e visualizar informações e avaliações dos livros.</br></br>
-. [style.css](https://github.com/SidneyTeodoroJr/amazon_books/blob/main/app/modules/style.css): Arquivo CSS que estiliza a aparência da aplicação.</br></br>
+. [style.py](https://github.com/SidneyTeodoroJr/amazon_books/blob/main/app/modules/style.py): Arquivo Pyhton que estiliza a aparência da aplicação.</br></br>
 
 
 # Referência
